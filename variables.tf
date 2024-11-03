@@ -8,8 +8,8 @@ variable "local_name" {
   description = "Infra stack/cluster name and Environent for resources local name"
   type        = map(string)
   default = {
-    name = "mountains",
-    env  = "dev"
+    name = "",
+    env  = ""
   }
 
   # Load balancer names must be no more than 32 characters long, and can only contain a limited set of characters.
